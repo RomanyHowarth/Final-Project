@@ -1,0 +1,346 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    display:block;
+    margin:0;
+}
+nav{
+    margin:auto;
+    text-align:center;
+    padding:10px;
+}
+
+nav>a{
+    padding:20px;
+    font-size: 25px;
+    text-decoration:none;
+    color:green;
+    transition: all 0.2s ease;
+}
+
+nav>a:hover{
+    color:yellowgreen;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    background-image: url("C:/Users/Ranho/OneDrive - University of St Andrews/Documents/CODE FIRST GIRLS/Web developing/Project/images/tradescantia/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#header>div{
+    display:flex;
+    margin:auto;
+    margin-bottom: 0;
+}
+
+h1{
+    padding:0 10px;
+    font-size: 100px;
+    line-height: 140px;
+    color:white;
+    margin: auto;
+    margin-right: 0;
+    text-align: center; 
+    
+}
+
+#spiderwort{
+    font-style: italic;
+    font-weight: lighter;
+    margin-right:auto;
+    margin-left:0; 
+}
+
+p{
+    width:540px;
+    margin:auto;
+    margin-top: 0;
+    font-size: 20px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace; 
+  
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%; 
+    padding: 20px 0; 
+
+}
+
+.section1>div{
+    display:flex;
+    margin: auto;
+}
+
+.section1>#tradescantiaVideo{
+    margin:auto;
+}
+
+h2{
+
+    font-size: 70px;
+    color:black;
+    margin: auto;
+    margin-right: 0;
+    text-align: center; 
+}
+
+ul{
+    width:750px;
+    margin:auto;
+    margin-top: 10;
+    font-size: 20px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:80%;
+    background-image: url("C:/Users/Ranho/OneDrive - University of St Andrews/Documents/CODE FIRST GIRLS/Web developing/Project/images/tradescantia/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-size: 70px;
+    line-height: 10px;
+    text-align: center; 
+    color:white;
+    margin:auto;
+    margin-bottom: 60px;
+    margin-top:60px;
+}
+
+h4{
+    margin:auto;
+    margin-top:0;
+    margin-bottom: 0;
+    color:white;
+    width:750px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: normal;
+
+}
+
+#lightSymptoms>h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+#lightSymptoms>ul{
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:white;
+    width:750px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: normal;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:83%; 
+
+}
+
+h5{
+    font-size: 70px;
+    line-height: 10px;
+    text-align: center; 
+    margin-bottom: 60px;
+    margin-top:60px;
+}
+
+.section3>p{
+    color:black;
+    width:750px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+#waterSymptoms>h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:purple;
+}
+
+#waterSymptoms>ul{
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:black;
+    width:750px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:70%; 
+    background-image: url("C:/Users/Ranho/OneDrive - University of St Andrews/Documents/CODE FIRST GIRLS/Web developing/Project/images/tradescantia/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h6{
+    font-size: 70px;
+    line-height: 10px;
+    text-align: center; 
+    margin-bottom: 60px;
+    margin-top:60px;
+    color:white;
+}
+
+.section4>p{
+    color:white;
+    width:750px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size:20px;
+    margin-bottom: 0;
+}
+
+#humiditySymptoms>h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+
+#humiditySymptoms>ul{
+    margin:auto;
+    margin-top: 5px;
+    color:white;
+    width:750px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: normal;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+#firstSlide{
+    display:block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 12px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
